@@ -1,0 +1,187 @@
+/* FONT FAMILY */
+/* body {
+  font-family: cursive;
+}
+h1,
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.credits {
+  font-family: Georgia, "Times New Roman", Times, serif;
+} */
+
+/* FONT SIZE */
+/* pixels */
+/* p {
+  font-size: 30px;
+} */
+/* percentage */
+/* p {
+  font-size: 200%;
+} */
+/* default values */
+/* p {
+  font-size: xx-large;
+} */
+/* em */
+/* p {
+  font-size: 3em;
+} */
+
+/* FONT FACE */
+/* @font-face {
+  font-family: "test";
+  src: url("./assets/font-family/EduTASBeginner-Bold.ttf");
+}
+h1 {
+  font-family: test;
+} */
+
+/* FONT WEIGHT */
+/* p {
+  font-weight: 900;
+} */
+
+/* FONT STYLE */
+/* h1 {
+  font-style: italic;
+} */
+/* using id selector and comparing 3 styles */
+/* #normal {
+  font-style: normal;
+}
+#italic {
+  font-style: italic;
+}
+#oblique {
+  font-style: oblique;
+} */
+
+/* TEXT TRANSFORMATION */
+/* h1 {
+  text-transform: lowercase;
+} */
+/* h1 {
+  text-transform: capitalize;
+} */
+/* h1 {
+  text-transform: uppercase;
+} */
+
+/* TEXT DECORATION */
+/* #underline {
+  text-decoration: underline;
+}
+#overline {
+  text-decoration: overline;
+}
+#line-through {
+  text-decoration: line-through;
+} */
+
+/* LEADING/LINE HEIGHT */
+/* p {
+  line-height: 20px;
+} */
+
+/* LETTER AND WORD SPACING */
+/* word spacing */
+/* h1 {
+  word-spacing: 20px;
+} */
+/* letter spacing */
+/* h1 {
+  letter-spacing: 20px;
+} */
+
+/* TEXT ALIGN */
+/* h1 {
+  text-align: center;
+}
+p {
+  text-align: justify;
+} */
+
+/* VERTICAL ALIGNMENT */
+/* img {
+  vertical-align: baseline;
+} */
+
+/* TEXT INDENT */
+/* h1 {
+  text-indent: 15px;
+}
+p {
+  text-indent: 15px;
+  text-align: justify;
+} */
+
+/* TEXT SHADOW */
+/* p {
+  background-color: #eeeeee;
+  color: #666666;
+  text-shadow: 1px 1px 0px #000000;
+} */
+
+/* FIRST LETTER OR FIRST LINE */
+/* p::first-letter {
+  color: red;
+} */
+/* p::first-line {
+  color: blue;
+} */
+
+/* STYLING LINKS */
+/* a:link {
+  color: green;
+}
+a:visited {
+  color: red;
+} */
+
+/* RESPONDING TO USER */
+/* hover */
+/* input.btn:hover {
+  background-color: wheat;
+}
+
+input.btn:active {
+  background-color: red;
+}
+
+input.textBox:focus {
+  background-color: black;
+  color: whitesmoke;
+} */
+
+/* ATTRIBUTE SELECTOR */
+
+h1[name] {
+    color: red;
+  }
+  
+  /* equality */
+  /* h1[name="hi"] {
+    color: red;
+  }
+  
+  /* space */
+  /* h1[name~="hi"] {
+    color: red;
+  } */
+  
+  /* prefix */
+  /* h1[name^="h"] {
+    color: red;
+  } */
+  
+  /* substring */
+  /* h1[name*="ll"] {
+    color: red;
+  } */
+  
+  /* suffix */
+  /* h1[name$="l"] {
+    color: aqua;
+  } */
+  
